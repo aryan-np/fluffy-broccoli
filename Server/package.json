@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "add": "git add .",
+    "commit": "git commit -m 'node'",
+    "push ": "git push origin main"
+  },
+  "author": "aryan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "url": "^0.11.3"
+  }
+}
